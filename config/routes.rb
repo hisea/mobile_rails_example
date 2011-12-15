@@ -1,4 +1,8 @@
 MobileRailsExample::Application.routes.draw do
+  get "home/web"
+
+  get "home/mobile"
+
   resources :posts
 
 
