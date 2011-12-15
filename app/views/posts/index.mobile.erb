@@ -1,0 +1,7 @@
+<ul 'data-role'="listview" 'data-inset'="true" 'data-filter'="true">
+  <% @posts.each do |p| %>
+    <li>
+      <%= link_to p.title, post_url(p) %>
+    </li>
+  <% end %>
+</ul>
